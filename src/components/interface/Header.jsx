@@ -1,8 +1,12 @@
+
 import netflixLogo from '../../assets/netflixLogo.png'
+
+  
+
+export default function Header () {
 
   const iconStyle = "flex justify-center items-center text-white m-1 w-10 h-10 duration-100 hover:bg-gray-500"
 
-export function Header () {
   return (
     <header className='flex justify-between bg-black'>
       <div className="flex justify-center items-center">

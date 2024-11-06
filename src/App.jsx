@@ -1,13 +1,15 @@
 import './App.css'
-import { Header } from './components/interface/Header'
+import Header from './components/interface/Header'
+import Hero from './components/interface/Hero'
 
 function App() {
 
 
   return (
-    <>
-      <Header></Header>
-    </>
+    <div className='h-svh'>
+      <Header/>
+      <Hero/>
+    </div>
   )
 }
 

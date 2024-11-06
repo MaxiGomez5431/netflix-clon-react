@@ -1,0 +1,7 @@
+{
+  "method": "GET",
+  "headers": {
+    "accept": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwOTgyZjU0NzQwZDU4YjRkZDg1MjllOWRlMzM5ZGEwZSIsIm5iZiI6MTczMDc3MDk1Ni45OTI5MzE2LCJzdWIiOiI2NWRkMDYyZWRjYjZhMzAxODU4NGY4MWQiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.Y10pnZ9t61m2i08N6jXo-vit51zmV6W7nula3OmHP_8"
+  }
+}
