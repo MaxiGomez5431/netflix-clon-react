@@ -1,7 +1,4 @@
-
 import netflixLogo from '../../assets/netflixLogo.png'
-
-  
 
 export default function Header () {
 

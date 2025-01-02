@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import options from '../assets/options.json'
+import { API_OPTIONS } from "../assets/apiConfig";
 
 function useFetch(url) {
   const [data, setData] = useState(null);
@@ -9,7 +9,7 @@ function useFetch(url) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(url, options);
+        const response = await fetch(url, API_OPTIONS);
         if (!response.ok) {
           throw new Error("Error en la respuesta");
         }

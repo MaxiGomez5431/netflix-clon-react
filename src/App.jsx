@@ -1,9 +1,7 @@
-import './App.css'
 import Header from './components/interface/Header'
-import Hero from './components/interface/Hero'
+import Hero from './components/interface/Hero/Hero'
 
 function App() {
-
 
   return (
     <div className='h-svh'>
